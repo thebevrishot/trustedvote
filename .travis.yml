@@ -1,0 +1,29 @@
+language: cpp
+sudo: true
+
+os: linux
+dist: xenial
+
+matrix:
+	include:
+
+		##########################################################################
+    # GCC on Linux
+		##########################################################################
+
+    # GCC 7 c++17 
+    - env: COMPILER=g++-7 BUILD_TYPE=Debug GSL_CXX_STANDARD=17
+      addons: *gcc7
+
+    - env: COMPILER=g++-7 BUILD_TYPE=Release GSL_CXX_STANDARD=17
+			addons: *gcc7
+
+install:
+	# Set the ${CXX} variable properly
+  - export CXX=${COMPILER}
+	- ${CXX} --version
+
+script:
+	- ./autogen.sh
+	- ./configure
+	- make
