@@ -1,6 +1,9 @@
-# Trusted Vote [![Gitter](https://badges.gitter.im/trustedvote/community.svg)](https://gitter.im/trustedvote/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Build Status](https://travis-ci.org/thebevrishot/trustedvote.svg?branch=master)](https://travis-ci.org/thebevrishot/trustedvote)
+[![Gitter](https://badges.gitter.im/trustedvote/community.svg)](https://gitter.im/trustedvote/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-This is s core of Trusted Vote system. It contains libtrustedvote, which is the core of Trusted Vote, daemon and CLI for daemon.
+# Trusted Vote
+
+The core of Trusted Vote system. It contains libtrustedvote, which is the core of Trusted Vote, daemon and CLI for daemon.
 
 ## Build requirements
 
@@ -11,7 +14,7 @@ This is s core of Trusted Vote system. It contains libtrustedvote, which is the 
 
 ## Dependencies
 
-- Boost 1.69
+- Boost 1.67
 
 ## Build instructions
 
