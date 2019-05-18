@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/thebevrishot/trustedvote.svg?branch=master)](https://travis-ci.org/thebevrishot/trustedvote)
+[![Build Status](https://travis-ci.org/trustedvote/trustedvote.svg?branch=master)](https://travis-ci.org/trustedvote/trustedvote)
 [![Gitter](https://badges.gitter.im/trustedvote/community.svg)](https://gitter.im/trustedvote/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Trusted Vote
